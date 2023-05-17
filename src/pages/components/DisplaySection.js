@@ -15,6 +15,7 @@ const DisplaySection = ({ age, rating, person, greet }) => {
       <h1>{age}</h1>
       <p>{rating}</p>
       <p>{person.name}</p>
+      <p>{person.age}</p>
       <h1>This is inner Component</h1>
     </div>
   )
